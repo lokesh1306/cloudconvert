@@ -21,17 +21,17 @@ variable "lambda_function_webp_arn" {
 variable "sqs_webp_queue" {
   description = "Name of WEBP SQS Queue"
   type        = string
-  default = "WEBPSQSQueue"
+  default     = "WEBPSQSQueue"
 }
 
 variable "sqs_png_queue" {
   description = "Name of PNG SQS Queue"
   type        = string
-  default = "PNGSQSQueue"
+  default     = "PNGSQSQueue"
 }
 
 variable "sqs_jpg_queue" {
   description = "Name of JPG SQS Queue"
   type        = string
-  default = "JPGSQSQueue"
+  default     = "JPGSQSQueue"
 }
