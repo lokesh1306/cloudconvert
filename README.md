@@ -1,4 +1,4 @@
-# Serverless Multi-Cloud Image Conversion Pipeline
+# CloudConvert: Serverless Multi-Cloud Image Conversion Pipeline
 
 ## What's inside
 This project spins up serverless cloud infrastructure designed to convert user uploaded images into various different formats such as PNG, JPG, and WEBP. The project uses Terraform and leverages various AWS and Azure services such as API Gateway, Cognito User Pools, Lambda, S3, DynamoDB, SNS, SQS, and Azure Blob storage to achieve this. The IaC code uses fanout design for parallel processing and is designed in modular format encapsulating identical groups of resources with reusable code for future projects.
